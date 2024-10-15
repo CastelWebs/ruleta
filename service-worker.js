@@ -7,7 +7,7 @@ self.addEventListener('install', (event) => {
         '/index.html',
         '/index.js',
         '/index.css',
-        '/jQueryRotate',
+        '/jQueryRotate.js',
       ]);
     })
   );
