@@ -1,0 +1,41 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <link rel="manifest" href="./manifest.json" />
+<script src="./jQueryRotate.js"></script>
+</head>
+
+<body>
+	<main>
+    <div class="title">
+        <h1>Ruleta</h1>
+    </div>
+
+	<form id="email-form" class="email-form">
+        <input type="text" id="nombre" placeholder="Nombre" required>
+		<input type="email" id="email" placeholder="Correo Electrónico" required>
+		<input type="submit" id="email-btn" class="email-btn" value="Ingresar">
+	</form>
+
+    <div id="box-roulette" class="box-roulette disabled">
+        <div class="markers"></div>
+        <button type="button" id="btn-start">Click Aquí</button>
+        <div id="roulette" class="roulette"></div>
+    </div>
+
+	<div id="finalMessage" class="finalMessage disabled" class="d">
+        <h1>¡Felicidades!</h1>
+		<h1>Ganaste</h1>
+		<h1 id="prize"></h1>
+    </div>
+	<div id="finalMessage2" class="finalMessage disabled" class="d">
+        <h1>Reintentalo de nuevo</h1>
+    </div>
+</main>
+
+    <script src="./index.js"></script>
+</body>
