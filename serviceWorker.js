@@ -4,10 +4,10 @@ self.addEventListener('install', (event) => {
     caches.open('ruleta-cache').then((cache) => {
       return cache.addAll([
         '/',
-        '/index.html',
-        '/index.js',
-        '/index.css',
-        '/jQueryRotate.js',
+        './index.html',
+        './index.js',
+        './index.css',
+        './jQueryRotate.js',
       ]);
     })
   );
