@@ -2,7 +2,7 @@
     "name": "Ruleta",
     "short_name": "Ruleta",
     "description": "Una ruleta que te permite ganar premios.",
-    "start_url": "./index.html",
+    "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
